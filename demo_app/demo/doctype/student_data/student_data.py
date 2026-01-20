@@ -6,8 +6,12 @@ from frappe.model.document import Document
 
 
 class StudentData(Document):
-    pass
+    def validate(self):
+        if not self.student_name:
+            frappe.throw("Student Name is required.")
+        if self.age and self.age < 0:
+            frappe.throw("Age cannot be negative.")
 
 @frappe.whitelist()
 def call_api(student_name):
-    return f"API called successfully for student: {student_name}"
+    return f"API called successfully from js for student: {student_name}"
