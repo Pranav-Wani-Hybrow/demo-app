@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "autoname": "Student - .#####",
+ "creation": "2025-10-09 14:27:38.227137",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "mobile_number",
+  "adhar_number",
+  "column_break_pbej",
+  "university_number",
+  "email",
+  "pan_number",
+  "section_break_keyd",
+  "ui"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "adhar_number",
+   "fieldtype": "Data",
+   "label": "Adhar Number"
+  },
+  {
+   "fieldname": "column_break_pbej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "university_number",
+   "fieldtype": "Int",
+   "label": "University Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "label": "PAN Number"
+  },
+  {
+   "fieldname": "section_break_keyd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ui",
+   "fieldtype": "HTML",
+   "label": "UI"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-18 16:46:04.121553",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Student Data",
+ "naming_rule": "Expression (old style)",
+ "owner": "pranavwani664@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

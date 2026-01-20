@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-01-18 14:54:52.001207",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "userid",
+  "column_break_rlmw",
+  "title",
+  "column_break_dudm",
+  "completed"
+ ],
+ "fields": [
+  {
+   "fieldname": "userid",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "User Id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_rlmw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "TItle"
+  },
+  {
+   "fieldname": "column_break_dudm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "completed",
+   "fieldtype": "Select",
+   "label": "Completed",
+   "options": "\ntrue\nfalse"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-18 16:20:49.486112",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Json Placeholder",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -133,6 +133,8 @@ app_license = "mit"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+fixtures = ["Workspace"]
+
 # Document Events
 # ---------------
 # Hook on document methods and events
